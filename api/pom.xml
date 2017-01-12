@@ -20,5 +20,13 @@
       <systemPath>${project.basedir}/../lib/bukkit-1.4.5-R1.0.jar</systemPath>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>maven.addstar.com.au</id>
+      <name>maven.addstar.com.au-snapshots</name>
+      <url>http://maven.addstar.com.au/artifactory/ext-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 
 </project>
